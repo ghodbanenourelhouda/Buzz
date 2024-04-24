@@ -8,7 +8,7 @@ class FizzTest {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		assertEquals(FizzBuzz.fizzbuzz(1) , "1");
 	}
 
 }
